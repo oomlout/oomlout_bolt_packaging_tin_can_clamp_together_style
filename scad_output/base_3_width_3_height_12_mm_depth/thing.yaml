@@ -1,0 +1,2042 @@
+classification: project
+color: oomlout_bolt_packaging_tin_can_clamp_tog
+description_extra: ''
+description_main: base_3_width_3_height_12_mm_depth
+full_rotations:
+- 0
+- 0
+- 0
+full_shift:
+- 0
+- 0
+- 0
+id: project_github_oomlout_oomlout_bolt_packaging_tin_can_clamp_tog_base_3_width_3_height_12_mm_depth
+id_oobb: oobb_part_oomlout_bolt_packaging_tin_can_clamp_tog_base_3_width_3_height_12_mm_depth
+kwargs:
+  filter: ''
+  height: 3
+  modes:
+  - 3dpr
+  navigation: false
+  oomp_classification: project
+  oomp_color: oomlout_bolt_packaging_tin_can_clamp_tog
+  oomp_description_extra: ''
+  oomp_description_main: base_3_width_3_height_12_mm_depth
+  oomp_manufacturer: ''
+  oomp_mode: project
+  oomp_part_number: ''
+  oomp_run: false
+  oomp_size: oomlout
+  oomp_type: github
+  overwrite: true
+  thickness: 12
+  type: oomlout_bolt_packaging_tin_can_clamp_tog_base
+  width: 3
+manufacturer: ''
+name: base
+part_number: ''
+project_name: C:\gh\oomlout_bolt_packaging_tin_can_clamp_together_style
+size: oomlout
+thing:
+  classification: oobb
+  color: ''
+  components:
+  - - depth: 12
+      height: 3
+      pos:
+      - 0
+      - 0
+      - -9
+      shape: rounded_rectangle
+      size:
+      - 44
+      - 44
+      - 12
+      type: positive
+      width: 3
+  - - m: ''
+      objects:
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: laser
+        r: 36.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: laser
+        r: 37.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: 3dpr
+        r: 36.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: 3dpr
+        r: 37.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: 'true'
+        r: 36.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: 'true'
+        r: 37.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      pos:
+      - 37.5
+      - 37.5
+      - -3
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - m: ''
+      objects:
+      - depth: 1
+        h: 1
+        height: 3
+        inclusion: laser
+        r: 33.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 3
+        width: 3
+      - depth: 1
+        h: 1
+        height: 3
+        inclusion: laser
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 3
+        width: 3
+      - depth: 1
+        h: 1
+        height: 3
+        inclusion: 3dpr
+        r: 33.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 3
+        width: 3
+      - depth: 1
+        h: 1
+        height: 3
+        inclusion: 3dpr
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 3
+        width: 3
+      - depth: 1
+        h: 1
+        height: 3
+        inclusion: 'true'
+        r: 33.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 3
+        width: 3
+      - depth: 1
+        h: 1
+        height: 3
+        inclusion: 'true'
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 3
+        width: 3
+      pos:
+      - 37.5
+      - 37.5
+      - -3
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - m: ''
+      objects:
+      - depth: 103
+        h: 103
+        height: 3
+        inclusion: laser
+        r: 35.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 103
+        h: 103
+        height: 3
+        inclusion: laser
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      - depth: 103
+        h: 103
+        height: 3
+        inclusion: 3dpr
+        r: 35.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 103
+        h: 103
+        height: 3
+        inclusion: 3dpr
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      - depth: 103
+        h: 103
+        height: 3
+        inclusion: 'true'
+        r: 35.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 103
+        h: 103
+        height: 3
+        inclusion: 'true'
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      pos:
+      - 37.5
+      - 37.5
+      - -106
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - depth: 1
+      h: 1
+      height: 3
+      inclusion: laser
+      pos: &id001
+      - 37.5
+      - 37.5
+      - -106.5
+      r: 36.75
+      radius: 36.75
+      shape: cylinder
+      type: negative
+      width: 3
+    - depth: 1
+      h: 1
+      height: 3
+      inclusion: 3dpr
+      pos: *id001
+      r: 36.75
+      shape: cylinder
+      type: negative
+      width: 3
+    - depth: 1
+      h: 1
+      height: 3
+      inclusion: 'true'
+      pos: *id001
+      r: 36.75
+      radius: 36.75
+      shape: cylinder
+      type: negative
+      width: 3
+  - - m: ''
+      objects:
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: laser
+        r: 35.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: laser
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: 3dpr
+        r: 35.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: 3dpr
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: 'true'
+        r: 35.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: 'true'
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      pos:
+      - 37.5
+      - 37.5
+      - -109
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - m: ''
+      objects:
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: laser
+        r: 36.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: laser
+        r: 37.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: 3dpr
+        r: 36.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: 3dpr
+        r: 37.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: 'true'
+        r: 36.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: 'true'
+        r: 37.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      pos:
+      - -37.5
+      - 37.5
+      - -3
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - m: ''
+      objects:
+      - depth: 1
+        h: 1
+        height: 3
+        inclusion: laser
+        r: 33.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 3
+        width: 3
+      - depth: 1
+        h: 1
+        height: 3
+        inclusion: laser
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 3
+        width: 3
+      - depth: 1
+        h: 1
+        height: 3
+        inclusion: 3dpr
+        r: 33.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 3
+        width: 3
+      - depth: 1
+        h: 1
+        height: 3
+        inclusion: 3dpr
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 3
+        width: 3
+      - depth: 1
+        h: 1
+        height: 3
+        inclusion: 'true'
+        r: 33.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 3
+        width: 3
+      - depth: 1
+        h: 1
+        height: 3
+        inclusion: 'true'
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 3
+        width: 3
+      pos:
+      - -37.5
+      - 37.5
+      - -3
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - m: ''
+      objects:
+      - depth: 103
+        h: 103
+        height: 3
+        inclusion: laser
+        r: 35.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 103
+        h: 103
+        height: 3
+        inclusion: laser
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      - depth: 103
+        h: 103
+        height: 3
+        inclusion: 3dpr
+        r: 35.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 103
+        h: 103
+        height: 3
+        inclusion: 3dpr
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      - depth: 103
+        h: 103
+        height: 3
+        inclusion: 'true'
+        r: 35.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 103
+        h: 103
+        height: 3
+        inclusion: 'true'
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      pos:
+      - -37.5
+      - 37.5
+      - -106
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - depth: 1
+      h: 1
+      height: 3
+      inclusion: laser
+      pos: &id002
+      - -37.5
+      - 37.5
+      - -106.5
+      r: 36.75
+      radius: 36.75
+      shape: cylinder
+      type: negative
+      width: 3
+    - depth: 1
+      h: 1
+      height: 3
+      inclusion: 3dpr
+      pos: *id002
+      r: 36.75
+      shape: cylinder
+      type: negative
+      width: 3
+    - depth: 1
+      h: 1
+      height: 3
+      inclusion: 'true'
+      pos: *id002
+      r: 36.75
+      radius: 36.75
+      shape: cylinder
+      type: negative
+      width: 3
+  - - m: ''
+      objects:
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: laser
+        r: 35.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: laser
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: 3dpr
+        r: 35.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: 3dpr
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: 'true'
+        r: 35.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: 'true'
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      pos:
+      - -37.5
+      - 37.5
+      - -109
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - m: ''
+      objects:
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: laser
+        r: 36.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: laser
+        r: 37.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: 3dpr
+        r: 36.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: 3dpr
+        r: 37.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: 'true'
+        r: 36.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: 'true'
+        r: 37.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      pos:
+      - 37.5
+      - -37.5
+      - -3
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - m: ''
+      objects:
+      - depth: 1
+        h: 1
+        height: 3
+        inclusion: laser
+        r: 33.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 3
+        width: 3
+      - depth: 1
+        h: 1
+        height: 3
+        inclusion: laser
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 3
+        width: 3
+      - depth: 1
+        h: 1
+        height: 3
+        inclusion: 3dpr
+        r: 33.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 3
+        width: 3
+      - depth: 1
+        h: 1
+        height: 3
+        inclusion: 3dpr
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 3
+        width: 3
+      - depth: 1
+        h: 1
+        height: 3
+        inclusion: 'true'
+        r: 33.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 3
+        width: 3
+      - depth: 1
+        h: 1
+        height: 3
+        inclusion: 'true'
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 3
+        width: 3
+      pos:
+      - 37.5
+      - -37.5
+      - -3
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - m: ''
+      objects:
+      - depth: 103
+        h: 103
+        height: 3
+        inclusion: laser
+        r: 35.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 103
+        h: 103
+        height: 3
+        inclusion: laser
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      - depth: 103
+        h: 103
+        height: 3
+        inclusion: 3dpr
+        r: 35.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 103
+        h: 103
+        height: 3
+        inclusion: 3dpr
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      - depth: 103
+        h: 103
+        height: 3
+        inclusion: 'true'
+        r: 35.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 103
+        h: 103
+        height: 3
+        inclusion: 'true'
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      pos:
+      - 37.5
+      - -37.5
+      - -106
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - depth: 1
+      h: 1
+      height: 3
+      inclusion: laser
+      pos: &id003
+      - 37.5
+      - -37.5
+      - -106.5
+      r: 36.75
+      radius: 36.75
+      shape: cylinder
+      type: negative
+      width: 3
+    - depth: 1
+      h: 1
+      height: 3
+      inclusion: 3dpr
+      pos: *id003
+      r: 36.75
+      shape: cylinder
+      type: negative
+      width: 3
+    - depth: 1
+      h: 1
+      height: 3
+      inclusion: 'true'
+      pos: *id003
+      r: 36.75
+      radius: 36.75
+      shape: cylinder
+      type: negative
+      width: 3
+  - - m: ''
+      objects:
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: laser
+        r: 35.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: laser
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: 3dpr
+        r: 35.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: 3dpr
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: 'true'
+        r: 35.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: 'true'
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      pos:
+      - 37.5
+      - -37.5
+      - -109
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - m: ''
+      objects:
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: laser
+        r: 36.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: laser
+        r: 37.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: 3dpr
+        r: 36.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: 3dpr
+        r: 37.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: 'true'
+        r: 36.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: 'true'
+        r: 37.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      pos:
+      - -37.5
+      - -37.5
+      - -3
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - m: ''
+      objects:
+      - depth: 1
+        h: 1
+        height: 3
+        inclusion: laser
+        r: 33.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 3
+        width: 3
+      - depth: 1
+        h: 1
+        height: 3
+        inclusion: laser
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 3
+        width: 3
+      - depth: 1
+        h: 1
+        height: 3
+        inclusion: 3dpr
+        r: 33.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 3
+        width: 3
+      - depth: 1
+        h: 1
+        height: 3
+        inclusion: 3dpr
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 3
+        width: 3
+      - depth: 1
+        h: 1
+        height: 3
+        inclusion: 'true'
+        r: 33.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 3
+        width: 3
+      - depth: 1
+        h: 1
+        height: 3
+        inclusion: 'true'
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 3
+        width: 3
+      pos:
+      - -37.5
+      - -37.5
+      - -3
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - m: ''
+      objects:
+      - depth: 103
+        h: 103
+        height: 3
+        inclusion: laser
+        r: 35.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 103
+        h: 103
+        height: 3
+        inclusion: laser
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      - depth: 103
+        h: 103
+        height: 3
+        inclusion: 3dpr
+        r: 35.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 103
+        h: 103
+        height: 3
+        inclusion: 3dpr
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      - depth: 103
+        h: 103
+        height: 3
+        inclusion: 'true'
+        r: 35.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 103
+        h: 103
+        height: 3
+        inclusion: 'true'
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      pos:
+      - -37.5
+      - -37.5
+      - -106
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - depth: 1
+      h: 1
+      height: 3
+      inclusion: laser
+      pos: &id004
+      - -37.5
+      - -37.5
+      - -106.5
+      r: 36.75
+      radius: 36.75
+      shape: cylinder
+      type: negative
+      width: 3
+    - depth: 1
+      h: 1
+      height: 3
+      inclusion: 3dpr
+      pos: *id004
+      r: 36.75
+      shape: cylinder
+      type: negative
+      width: 3
+    - depth: 1
+      h: 1
+      height: 3
+      inclusion: 'true'
+      pos: *id004
+      r: 36.75
+      radius: 36.75
+      shape: cylinder
+      type: negative
+      width: 3
+  - - m: ''
+      objects:
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: laser
+        r: 35.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: laser
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: 3dpr
+        r: 35.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: 3dpr
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: 'true'
+        r: 35.75
+        shape: cylinder
+        type: negative
+        wall_thickness: 1
+        width: 3
+      - depth: 3
+        h: 3
+        height: 3
+        inclusion: 'true'
+        r: 36.75
+        shape: cylinder
+        type: positive
+        wall_thickness: 1
+        width: 3
+      pos:
+      - -37.5
+      - -37.5
+      - -109
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - - depth: 250
+        h: 250
+        inclusion: laser
+        m: ''
+        pos: &id005
+        - -16.5
+        - -16.5
+        - -125.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 250
+        h: 250
+        inclusion: 3dpr
+        m: ''
+        pos: *id005
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 250
+        h: 250
+        inclusion: 'true'
+        m: ''
+        pos: *id005
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 250
+        h: 250
+        inclusion: laser
+        m: ''
+        pos: &id006
+        - 16.5
+        - -16.5
+        - -125.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 250
+        h: 250
+        inclusion: 3dpr
+        m: ''
+        pos: *id006
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 250
+        h: 250
+        inclusion: 'true'
+        m: ''
+        pos: *id006
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 250
+        h: 250
+        inclusion: laser
+        m: ''
+        pos: &id007
+        - -16.5
+        - 16.5
+        - -125.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 250
+        h: 250
+        inclusion: 3dpr
+        m: ''
+        pos: *id007
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 250
+        h: 250
+        inclusion: 'true'
+        m: ''
+        pos: *id007
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 250
+        h: 250
+        inclusion: laser
+        m: ''
+        pos: &id008
+        - 16.5
+        - 16.5
+        - -125.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 250
+        h: 250
+        inclusion: 3dpr
+        m: ''
+        pos: *id008
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 250
+        h: 250
+        inclusion: 'true'
+        m: ''
+        pos: *id008
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 250
+        h: 250
+        inclusion: laser
+        m: ''
+        pos: &id009
+        - 0.0
+        - 0.0
+        - -125.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 250
+        h: 250
+        inclusion: 3dpr
+        m: ''
+        pos: *id009
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 250
+        h: 250
+        inclusion: 'true'
+        m: ''
+        pos: *id009
+        r: 3.0
+        shape: cylinder
+        type: negative
+  components_objects:
+  - depth: 12
+    filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_bolt_packaging_tin_can_clamp_tog
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - -9
+    save_type: none
+    shape: oobb_plate
+    thickness: 12
+    type: positive
+    width: 3
+  - depth: 3
+    filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_bolt_packaging_tin_can_clamp_tog
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 37.5
+    - 37.5
+    - -3
+    radius: 37.75
+    save_type: none
+    shape: oobb_tube_new
+    thickness: 12
+    type: negative
+    wall_thickness: 1
+    width: 3
+  - depth: 1
+    filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_bolt_packaging_tin_can_clamp_tog
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 37.5
+    - 37.5
+    - -3
+    radius: 36.75
+    save_type: none
+    shape: oobb_tube_new
+    thickness: 12
+    type: negative
+    wall_thickness: 3
+    width: 3
+  - depth: 103
+    filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_bolt_packaging_tin_can_clamp_tog
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 37.5
+    - 37.5
+    - -106
+    radius: 36.75
+    save_type: none
+    shape: oobb_tube_new
+    thickness: 12
+    type: negative
+    wall_thickness: 1
+    width: 3
+  - depth: 1
+    filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_bolt_packaging_tin_can_clamp_tog
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 37.5
+    - 37.5
+    - -106
+    radius: 36.75
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 12
+    type: negative
+    width: 3
+  - depth: 3
+    filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_bolt_packaging_tin_can_clamp_tog
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 37.5
+    - 37.5
+    - -109
+    radius: 36.75
+    save_type: none
+    shape: oobb_tube_new
+    thickness: 12
+    type: negative
+    wall_thickness: 1
+    width: 3
+  - depth: 3
+    filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_bolt_packaging_tin_can_clamp_tog
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - -37.5
+    - 37.5
+    - -3
+    radius: 37.75
+    save_type: none
+    shape: oobb_tube_new
+    thickness: 12
+    type: negative
+    wall_thickness: 1
+    width: 3
+  - depth: 1
+    filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_bolt_packaging_tin_can_clamp_tog
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - -37.5
+    - 37.5
+    - -3
+    radius: 36.75
+    save_type: none
+    shape: oobb_tube_new
+    thickness: 12
+    type: negative
+    wall_thickness: 3
+    width: 3
+  - depth: 103
+    filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_bolt_packaging_tin_can_clamp_tog
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - -37.5
+    - 37.5
+    - -106
+    radius: 36.75
+    save_type: none
+    shape: oobb_tube_new
+    thickness: 12
+    type: negative
+    wall_thickness: 1
+    width: 3
+  - depth: 1
+    filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_bolt_packaging_tin_can_clamp_tog
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - -37.5
+    - 37.5
+    - -106
+    radius: 36.75
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 12
+    type: negative
+    width: 3
+  - depth: 3
+    filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_bolt_packaging_tin_can_clamp_tog
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - -37.5
+    - 37.5
+    - -109
+    radius: 36.75
+    save_type: none
+    shape: oobb_tube_new
+    thickness: 12
+    type: negative
+    wall_thickness: 1
+    width: 3
+  - depth: 3
+    filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_bolt_packaging_tin_can_clamp_tog
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 37.5
+    - -37.5
+    - -3
+    radius: 37.75
+    save_type: none
+    shape: oobb_tube_new
+    thickness: 12
+    type: negative
+    wall_thickness: 1
+    width: 3
+  - depth: 1
+    filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_bolt_packaging_tin_can_clamp_tog
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 37.5
+    - -37.5
+    - -3
+    radius: 36.75
+    save_type: none
+    shape: oobb_tube_new
+    thickness: 12
+    type: negative
+    wall_thickness: 3
+    width: 3
+  - depth: 103
+    filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_bolt_packaging_tin_can_clamp_tog
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 37.5
+    - -37.5
+    - -106
+    radius: 36.75
+    save_type: none
+    shape: oobb_tube_new
+    thickness: 12
+    type: negative
+    wall_thickness: 1
+    width: 3
+  - depth: 1
+    filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_bolt_packaging_tin_can_clamp_tog
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 37.5
+    - -37.5
+    - -106
+    radius: 36.75
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 12
+    type: negative
+    width: 3
+  - depth: 3
+    filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_bolt_packaging_tin_can_clamp_tog
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 37.5
+    - -37.5
+    - -109
+    radius: 36.75
+    save_type: none
+    shape: oobb_tube_new
+    thickness: 12
+    type: negative
+    wall_thickness: 1
+    width: 3
+  - depth: 3
+    filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_bolt_packaging_tin_can_clamp_tog
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - -37.5
+    - -37.5
+    - -3
+    radius: 37.75
+    save_type: none
+    shape: oobb_tube_new
+    thickness: 12
+    type: negative
+    wall_thickness: 1
+    width: 3
+  - depth: 1
+    filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_bolt_packaging_tin_can_clamp_tog
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - -37.5
+    - -37.5
+    - -3
+    radius: 36.75
+    save_type: none
+    shape: oobb_tube_new
+    thickness: 12
+    type: negative
+    wall_thickness: 3
+    width: 3
+  - depth: 103
+    filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_bolt_packaging_tin_can_clamp_tog
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - -37.5
+    - -37.5
+    - -106
+    radius: 36.75
+    save_type: none
+    shape: oobb_tube_new
+    thickness: 12
+    type: negative
+    wall_thickness: 1
+    width: 3
+  - depth: 1
+    filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_bolt_packaging_tin_can_clamp_tog
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - -37.5
+    - -37.5
+    - -106
+    radius: 36.75
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 12
+    type: negative
+    width: 3
+  - depth: 3
+    filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_bolt_packaging_tin_can_clamp_tog
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - -37.5
+    - -37.5
+    - -109
+    radius: 36.75
+    save_type: none
+    shape: oobb_tube_new
+    thickness: 12
+    type: negative
+    wall_thickness: 1
+    width: 3
+  - both_holes: true
+    depth: 250
+    filter: ''
+    height: 3
+    holes: single
+    locations:
+    - - 0.9
+      - 0.9
+    - - 3.1
+      - 0.9
+    - - 0.9
+      - 3.1
+    - - 3.1
+      - 3.1
+    - - 2
+      - 2
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_bolt_packaging_tin_can_clamp_tog
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - -125.0
+    save_type: none
+    shape: oobb_holes
+    thickness: 12
+    type: p
+    width: 3
+  components_string:
+  - oobb_plate_shape_positive_type_12_depth_0_0_-9_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color
+  - oobb_tube_new_shape_negative_type_3_depth_37.5_37.5_-3_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_37.75_radius_1_wall_thickness
+  - oobb_tube_new_shape_negative_type_1_depth_37.5_37.5_-3_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_36.75_radius_3_wall_thickness
+  - oobb_tube_new_shape_negative_type_103_depth_37.5_37.5_-106_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_36.75_radius_1_wall_thickness
+  - oobb_cylinder_shape_negative_type_1_depth_37.5_37.5_-106_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_36.75_radius
+  - oobb_tube_new_shape_negative_type_3_depth_37.5_37.5_-109_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_36.75_radius_1_wall_thickness
+  - oobb_tube_new_shape_negative_type_3_depth_-37.5_37.5_-3_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_37.75_radius_1_wall_thickness
+  - oobb_tube_new_shape_negative_type_1_depth_-37.5_37.5_-3_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_36.75_radius_3_wall_thickness
+  - oobb_tube_new_shape_negative_type_103_depth_-37.5_37.5_-106_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_36.75_radius_1_wall_thickness
+  - oobb_cylinder_shape_negative_type_1_depth_-37.5_37.5_-106_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_36.75_radius
+  - oobb_tube_new_shape_negative_type_3_depth_-37.5_37.5_-109_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_36.75_radius_1_wall_thickness
+  - oobb_tube_new_shape_negative_type_3_depth_37.5_-37.5_-3_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_37.75_radius_1_wall_thickness
+  - oobb_tube_new_shape_negative_type_1_depth_37.5_-37.5_-3_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_36.75_radius_3_wall_thickness
+  - oobb_tube_new_shape_negative_type_103_depth_37.5_-37.5_-106_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_36.75_radius_1_wall_thickness
+  - oobb_cylinder_shape_negative_type_1_depth_37.5_-37.5_-106_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_36.75_radius
+  - oobb_tube_new_shape_negative_type_3_depth_37.5_-37.5_-109_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_36.75_radius_1_wall_thickness
+  - oobb_tube_new_shape_negative_type_3_depth_-37.5_-37.5_-3_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_37.75_radius_1_wall_thickness
+  - oobb_tube_new_shape_negative_type_1_depth_-37.5_-37.5_-3_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_36.75_radius_3_wall_thickness
+  - oobb_tube_new_shape_negative_type_103_depth_-37.5_-37.5_-106_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_36.75_radius_1_wall_thickness
+  - oobb_cylinder_shape_negative_type_1_depth_-37.5_-37.5_-106_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_36.75_radius
+  - oobb_tube_new_shape_negative_type_3_depth_-37.5_-37.5_-109_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_36.75_radius_1_wall_thickness
+  - oobb_holes_shape_p_type_250_depth_0_0_-125.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_true_both_holes_single_holes_0.9_0.9_3.1_0.9_0.9_3.1_3.1_3.1_2_2_locations
+  description: oomlout bolt packaging tin can clamp tog base 3x3x12
+  description_extra: ''
+  description_main: 3_width_3_height_12_mm_depth
+  folder: C:\gh\oomlout_oobb_version_4_generated_parts\parts\oobb_part_oomlout_bolt_packaging_tin_can_clamp_tog_base_3_width_3_height_12_mm_depth
+  height: 3
+  height_mm: 44
+  id: oobb_part_oomlout_bolt_packaging_tin_can_clamp_tog_base_3_width_3_height_12_mm_depth
+  link_main: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/navigation_oomp/oobb/part/oomlout_bolt_packaging_tin_can_clamp_tog_base/3_width_3_height_12_mm_depth/part
+  link_redirect: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/parts/oobb_oomlout_bolt_packaging_tin_can_clamp_tog_base_03_03_12
+  manufacturer: ''
+  name: Oobb Part Oomlout Bolt Packaging Tin Can Clamp Tog Base 3 Width 3 Height 12
+    mm Depth
+  name_short: Oomlout Bolt Packaging Tin Can Clamp
+  part_number: ''
+  short_name: ''
+  size: oomlout_bolt_packaging_tin_can_clamp_tog_base
+  thickness: 12
+  thickness_mm: 12
+  type: part
+  width: 3
+  width_mm: 44
+type: github

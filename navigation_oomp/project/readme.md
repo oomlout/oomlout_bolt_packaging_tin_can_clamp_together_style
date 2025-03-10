@@ -1,0 +1,7 @@
+* [github](github)
+  * [oomlout](github/oomlout)
+    * [oomlout_bolt_packaging_tin_can_clamp_tog](github/oomlout/oomlout_bolt_packaging_tin_can_clamp_tog)
+      * [base_3_width_3_height_12_mm_depth](github/oomlout/oomlout_bolt_packaging_tin_can_clamp_tog/base_3_width_3_height_12_mm_depth)
+        * [middle_extra](github/oomlout/oomlout_bolt_packaging_tin_can_clamp_tog/base_3_width_3_height_12_mm_depth/middle_extra)
+        * [sides_extra](github/oomlout/oomlout_bolt_packaging_tin_can_clamp_tog/base_3_width_3_height_12_mm_depth/sides_extra)
+        * [top_extra](github/oomlout/oomlout_bolt_packaging_tin_can_clamp_tog/base_3_width_3_height_12_mm_depth/top_extra)

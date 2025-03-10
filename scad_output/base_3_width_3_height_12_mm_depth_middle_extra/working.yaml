@@ -1,0 +1,41 @@
+classification: project
+color: oomlout_bolt_packaging_tin_can_clamp_tog
+description_extra: middle_extra
+description_main: base_3_width_3_height_12_mm_depth
+full_rotations:
+- 0
+- 0
+- 0
+full_shift:
+- 0
+- 0
+- 0
+id: project_github_oomlout_oomlout_bolt_packaging_tin_can_clamp_tog_base_3_width_3_height_12_mm_depth_middle_extra
+id_oobb: oobb_part_oomlout_bolt_packaging_tin_can_clamp_tog_base_3_width_3_height_12_mm_depth_middle_extra
+kwargs:
+  extra: middle
+  filter: ''
+  height: 3
+  modes:
+  - 3dpr
+  navigation: false
+  oomp_classification: project
+  oomp_color: oomlout_bolt_packaging_tin_can_clamp_tog
+  oomp_description_extra: middle_extra
+  oomp_description_main: base_3_width_3_height_12_mm_depth
+  oomp_manufacturer: ''
+  oomp_mode: project
+  oomp_part_number: ''
+  oomp_run: false
+  oomp_size: oomlout
+  oomp_type: github
+  overwrite: true
+  thickness: 12
+  type: oomlout_bolt_packaging_tin_can_clamp_tog_base
+  width: 3
+manufacturer: ''
+name: base
+part_number: ''
+project_name: C:\gh\oomlout_bolt_packaging_tin_can_clamp_together_style
+size: oomlout
+type: github

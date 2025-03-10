@@ -83,9 +83,9 @@ def make_scad(**kwargs):
                 
         #defaults
         kwargs["size"] = "oobb"
-        kwargs["width"] = 1
-        kwargs["height"] = 1
-        kwargs["thickness"] = 3
+        kwargs["width"] = 3
+        kwargs["height"] = 3
+        kwargs["thickness"] = 12
         #oomp_bits
         if oomp_mode == "project":
             kwargs["oomp_classification"] = "project"
@@ -112,18 +112,23 @@ def make_scad(**kwargs):
         part_default["full_shift"] = [0, 0, 0]
         part_default["full_rotations"] = [0, 0, 0]
         
-        part = copy.deepcopy(part_default)
-        p3 = copy.deepcopy(kwargs)
-        p3["width"] = 3
-        p3["height"] = 3
-        #p3["thickness"] = 6
-        #p3["extra"] = ""
-        part["kwargs"] = p3
-        nam = "base"
-        part["name"] = nam
-        if oomp_mode == "oobb":
-            p3["oomp_size"] = nam
-        #parts.append(part)
+        #names = ["base","top","bottom","clip"]
+        extras = ["", "middle", "top","sides"]
+
+        for ex in extras:
+            part = copy.deepcopy(part_default)
+            p3 = copy.deepcopy(kwargs)
+            p3["width"] = 3
+            p3["height"] = 3
+            #p3["thickness"] = 6
+            if ex != "":
+                p3["extra"] = ex
+            part["kwargs"] = p3
+            nam = "base"
+            part["name"] = nam
+            if oomp_mode == "oobb":
+                p3["oomp_size"] = nam
+            parts.append(part)
 
 
     kwargs["parts"] = parts
@@ -152,52 +157,244 @@ def get_base(thing, **kwargs):
     pos = kwargs.get("pos", [0, 0, 0])
     extra = kwargs.get("extra", "")
     
+    depth_top_plate = 3
+    depth_can_top = 3
+
     #add plate
     p3 = copy.deepcopy(kwargs)
     p3["type"] = "positive"
     p3["shape"] = f"oobb_plate"    
     p3["depth"] = depth
+    if extra == "middle":
+        p3["depth"] = depth - depth_top_plate
+    if extra == "top":
+        p3["depth"] = depth_top_plate + depth_can_top
     #p3["holes"] = True         uncomment to include default holes
     #p3["m"] = "#"
-    pos1 = copy.deepcopy(pos)         
+    pos1 = copy.deepcopy(pos) 
+    pos1[2] += -depth + depth_top_plate 
+    if extra == "middle":
+        pos1[2] += -3  
+    if extra == "top":
+        pos1[2] += 6
     p3["pos"] = pos1
     oobb_base.append_full(thing,**p3)
     
+    #add cans
+    if True:
+        
+        clearance_can_thickness = 0.5
+        poss = []
+        shift_x = 37.5
+        shift_y = 37.5
+        shift_z = 0
+        poss.append([shift_x, shift_y, shift_z])
+        poss.append([-shift_x, shift_y, shift_z])
+        poss.append([shift_x, -shift_y, shift_z])
+        poss.append([-shift_x, -shift_y, shift_z])
+        #poss.append([0, 0])
+        diameter_can_top = 75
+        diameter_can_main = 73
+        #depth_can_top = 3
+        depth_can_bottom = 3
+        depth_can_lid = 1
+        depth_can_total = 109
+        depth_can_main = depth_can_total - depth_can_top - depth_can_bottom
+        #ty = "positive"
+        ty = "negative"
+        
+    
+        for pos_shift in poss:            
+            #top tube
+            p3 = copy.deepcopy(kwargs)
+            p3["type"] = ty
+            p3["shape"] = f"oobb_tube_new"
+
+            p3["depth"] = depth_can_top
+            p3["radius"] = (diameter_can_top+clearance_can_thickness)/2
+            p3["wall_thickness"] = 1
+            #p3["m"] = "#"
+            pos1 = copy.deepcopy(pos)
+            pos1[0] += pos_shift[0]
+            pos1[1] += pos_shift[1]
+            pos1[2] += -depth_can_top + pos_shift[2]
+            p3["pos"] = pos1
+            oobb_base.append_full(thing,**p3)
+            
+            #tube lid inset
+            current_z = 0
+            p3 = copy.deepcopy(kwargs)
+            p3["type"] = ty
+            p3["shape"] = f"oobb_tube_new"
+            p3["depth"] = depth_can_lid
+            p3["radius"] = (diameter_can_main+clearance_can_thickness)/2
+            p3["wall_thickness"] = 3
+            #p3["m"] = "#"
+            pos1 = copy.deepcopy(pos)
+            pos1[0] += pos_shift[0]
+            pos1[1] += pos_shift[1]
+            current_z += -depth_can_top
+            pos1[2] += current_z + pos_shift[2]
+            p3["pos"] = pos1
+            oobb_base.append_full(thing,**p3)
+
+            #main tube
+            current_z += -depth_can_main
+            if extra == "middle":
+                #main tube
+                p3 = copy.deepcopy(kwargs)
+                p3["type"] = ty
+                p3["shape"] = f"oobb_cylinder"
+                dep = depth_can_main
+                p3["depth"] = dep
+                p3["radius"] = (diameter_can_main+clearance_can_thickness)/2
+                #p3["wall_thickness"] = 1
+                #p3["m"] = "#"
+                pos1 = copy.deepcopy(pos)
+                pos1[0] += pos_shift[0]
+                pos1[1] += pos_shift[1]
+                pos1[2] += current_z + pos_shift[2] + depth_can_main/2                
+                p3["pos"] = pos1
+                oobb_base.append_full(thing,**p3)
+            else:
+                p3 = copy.deepcopy(kwargs)
+                p3["type"] = ty
+                p3["shape"] = f"oobb_tube_new"
+                dep = depth_can_main
+                p3["depth"] = dep
+                p3["radius"] = (diameter_can_main+clearance_can_thickness)/2
+                p3["wall_thickness"] = 1
+                #p3["m"] = "#"
+                pos1 = copy.deepcopy(pos)
+                pos1[0] += pos_shift[0]
+                pos1[1] += pos_shift[1]                
+                pos1[2] += current_z + pos_shift[2]
+                p3["pos"] = pos1
+                oobb_base.append_full(thing,**p3)
+
+            #bottom flat
+            p3 = copy.deepcopy(kwargs)
+            p3["type"] = ty
+            p3["shape"] = f"oobb_cylinder"
+            p3["depth"] = depth_can_lid
+            p3["radius"] = (diameter_can_main+clearance_can_thickness)/2
+            #p3["m"] = "#"
+            pos1 = copy.deepcopy(pos)
+            pos1[0] += pos_shift[0]
+            pos1[1] += pos_shift[1]
+            #current_z += -depth_can_lid 
+            pos1[2] += current_z + pos_shift[2]
+            p3["pos"] = pos1
+            oobb_base.append_full(thing,**p3)
+
+            #bottom tube
+            p3 = copy.deepcopy(kwargs)
+            p3["type"] = ty
+            p3["shape"] = f"oobb_tube_new"
+            p3["depth"] = depth_can_bottom
+            p3["radius"] = (diameter_can_main+clearance_can_thickness)/2
+            p3["wall_thickness"] = 1
+            #p3["m"] = "#"
+            pos1 = copy.deepcopy(pos)
+            pos1[0] += pos_shift[0]
+            pos1[1] += pos_shift[1]
+            current_z += -depth_can_bottom
+            pos1[2] += current_z + pos_shift[2]
+            p3["pos"] = pos1
+            oobb_base.append_full(thing,**p3)
+            
+                
+
+
+    
+
+
     #add holes seperate
     p3 = copy.deepcopy(kwargs)
     p3["type"] = "p"
     p3["shape"] = f"oobb_holes"
     p3["both_holes"] = True  
-    p3["depth"] = depth
-    p3["holes"] = "perimeter"
+    dep = 250
+    p3["depth"] = dep
+    p3["holes"] = "single"
+    locs = []
+    single_mm = 1.5/15
+    locs.append([1-single_mm,1-single_mm])
+    locs.append([width+single_mm,1-single_mm])
+    locs.append([1-single_mm,height+single_mm])
+    locs.append([width+single_mm,height+single_mm])
+    locs.append([2,2])
+    p3["locations"] = locs
     #p3["m"] = "#"
     pos1 = copy.deepcopy(pos)         
+    pos1[2] += -dep/2
     p3["pos"] = pos1
     oobb_base.append_full(thing,**p3)
 
-    if prepare_print:
+    
+    if extra == "sides":
+        #add slice # top
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "n"
+        p3["shape"] = f"oobb_slice"
+        pos1 = copy.deepcopy(pos)
+        pos1[0] += 0
+        pos1[1] += 0
+        pos1[2] += -depth_can_top
+        p3["pos"] = pos1
+        p3["m"] = "#"
+        oobb_base.append_full(thing,**p3)
+
+    if prepare_print:        
         #put into a rotation object
         components_second = copy.deepcopy(thing["components"])
+        components_third = copy.deepcopy(thing["components"])
+        components_fourth = copy.deepcopy(thing["components"])
         return_value_2 = {}
         return_value_2["type"]  = "rotation"
         return_value_2["typetype"]  = "p"
         pos1 = copy.deepcopy(pos)
-        pos1[0] += 50
+        pos1[0] += 150
+        pos1[2] += 0
         return_value_2["pos"] = pos1
         return_value_2["rot"] = [180,0,0]
         return_value_2["objects"] = components_second
         
         thing["components"].append(return_value_2)
 
-    
+        #add third copy        
+        return_value_3 = {}
+        return_value_3["type"]  = "rotation"
+        return_value_3["typetype"]  = "p"
+        pos1 = copy.deepcopy(pos)
+        pos1[0] += 150
+        pos1[1] += 150
+        pos1[2] += -depth_top_plate
+        return_value_3["pos"] = pos1
+        return_value_3["rot"] = [180,0,0]
+        return_value_3["objects"] = components_third
+        thing["components"].append(return_value_3)
+
+        #add fourth copy
+        return_value_4 = {}
+        return_value_4["type"]  = "rotation"
+        return_value_4["typetype"]  = "p"
+        pos1 = copy.deepcopy(pos)
+        pos1[1] += 150
+        pos1[2] += 3.5
+        return_value_4["pos"] = pos1
+        return_value_4["rot"] = [0,0,0]
+        return_value_4["objects"] = components_fourth
+        thing["components"].append(return_value_4)
+
         #add slice # top
         p3 = copy.deepcopy(kwargs)
         p3["type"] = "n"
         p3["shape"] = f"oobb_slice"
         pos1 = copy.deepcopy(pos)
-        pos1[0] += -500/2
+        pos1[0] += 0
         pos1[1] += 0
-        pos1[2] += -500/2        
+        pos1[2] += -500
         p3["pos"] = pos1
         #p3["m"] = "#"
         oobb_base.append_full(thing,**p3)
