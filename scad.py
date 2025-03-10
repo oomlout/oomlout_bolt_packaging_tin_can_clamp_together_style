@@ -158,7 +158,10 @@ def get_base(thing, **kwargs):
     extra = kwargs.get("extra", "")
     
     depth_top_plate = 3
-    depth_can_top = 3
+    depth_can_lid = 1
+    depth_can_top = 4 + depth_can_lid
+
+    depth = 15
 
     #add plate
     p3 = copy.deepcopy(kwargs)
@@ -167,16 +170,18 @@ def get_base(thing, **kwargs):
     p3["depth"] = depth
     if extra == "middle":
         p3["depth"] = depth - depth_top_plate
+    dep_top = depth_top_plate + depth_can_top + depth_can_lid
     if extra == "top":
-        p3["depth"] = depth_top_plate + depth_can_top
+        p3["depth"] = dep_top
     #p3["holes"] = True         uncomment to include default holes
     #p3["m"] = "#"
-    pos1 = copy.deepcopy(pos) 
-    pos1[2] += -depth + depth_top_plate 
+    pos1 = copy.deepcopy(pos)     
     if extra == "middle":
-        pos1[2] += -3  
+        pos1[2] += -depth_can_top  
     if extra == "top":
-        pos1[2] += 6
+        pos1[2] += -dep_top/2
+    else:
+        pos1[2] += -depth + depth_top_plate 
     p3["pos"] = pos1
     oobb_base.append_full(thing,**p3)
     
@@ -197,7 +202,7 @@ def get_base(thing, **kwargs):
         diameter_can_main = 73
         #depth_can_top = 3
         depth_can_bottom = 3
-        depth_can_lid = 1
+        #depth_can_lid = 1
         depth_can_total = 109
         depth_can_main = depth_can_total - depth_can_top - depth_can_bottom
         #ty = "positive"
@@ -226,14 +231,15 @@ def get_base(thing, **kwargs):
             p3 = copy.deepcopy(kwargs)
             p3["type"] = ty
             p3["shape"] = f"oobb_tube_new"
-            p3["depth"] = depth_can_lid
+            dep = depth_can_lid
+            p3["depth"] = dep
             p3["radius"] = (diameter_can_main+clearance_can_thickness)/2
             p3["wall_thickness"] = 3
-            #p3["m"] = "#"
+            p3["m"] = "#"
             pos1 = copy.deepcopy(pos)
             pos1[0] += pos_shift[0]
             pos1[1] += pos_shift[1]
-            current_z += -depth_can_top
+            current_z += -depth_can_top #- dep
             pos1[2] += current_z + pos_shift[2]
             p3["pos"] = pos1
             oobb_base.append_full(thing,**p3)
@@ -342,7 +348,7 @@ def get_base(thing, **kwargs):
         pos1[1] += 0
         pos1[2] += -depth_can_top
         p3["pos"] = pos1
-        p3["m"] = "#"
+        #p3["m"] = "#"
         oobb_base.append_full(thing,**p3)
 
     if prepare_print:        

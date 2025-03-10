@@ -43,25 +43,25 @@ thing:
   classification: oobb
   color: ''
   components:
-  - - depth: 9
+  - - depth: 12
       extra: middle
       height: 3
       pos:
       - 0
       - 0
-      - -12
+      - -17
       shape: rounded_rectangle
       size:
       - 44
       - 44
-      - 9
+      - 12
       type: positive
       width: 3
   - - m: ''
       objects:
-      - depth: 3
+      - depth: 5
         extra: middle
-        h: 3
+        h: 5
         height: 3
         inclusion: laser
         r: 36.75
@@ -69,9 +69,9 @@ thing:
         type: negative
         wall_thickness: 1
         width: 3
-      - depth: 3
+      - depth: 5
         extra: middle
-        h: 3
+        h: 5
         height: 3
         inclusion: laser
         r: 37.75
@@ -79,9 +79,9 @@ thing:
         type: positive
         wall_thickness: 1
         width: 3
-      - depth: 3
+      - depth: 5
         extra: middle
-        h: 3
+        h: 5
         height: 3
         inclusion: 3dpr
         r: 36.75
@@ -89,9 +89,9 @@ thing:
         type: negative
         wall_thickness: 1
         width: 3
-      - depth: 3
+      - depth: 5
         extra: middle
-        h: 3
+        h: 5
         height: 3
         inclusion: 3dpr
         r: 37.75
@@ -99,9 +99,9 @@ thing:
         type: positive
         wall_thickness: 1
         width: 3
-      - depth: 3
+      - depth: 5
         extra: middle
-        h: 3
+        h: 5
         height: 3
         inclusion: 'true'
         r: 36.75
@@ -109,9 +109,9 @@ thing:
         type: negative
         wall_thickness: 1
         width: 3
-      - depth: 3
+      - depth: 5
         extra: middle
-        h: 3
+        h: 5
         height: 3
         inclusion: 'true'
         r: 37.75
@@ -122,14 +122,14 @@ thing:
       pos:
       - 37.5
       - 37.5
-      - -3
+      - -5
       rot:
       - 0
       - 0
       - 0
       type: rotation
       typetype: negative
-  - - m: ''
+  - - m: '#'
       objects:
       - depth: 1
         extra: middle
@@ -194,16 +194,16 @@ thing:
       pos:
       - 37.5
       - 37.5
-      - -3
+      - -5
       rot:
       - 0
       - 0
       - 0
       type: rotation
       typetype: negative
-  - - depth: 103
+  - - depth: 101
       extra: middle
-      h: 103
+      h: 101
       height: 3
       inclusion: laser
       pos: &id001
@@ -215,9 +215,9 @@ thing:
       shape: cylinder
       type: negative
       width: 3
-    - depth: 103
+    - depth: 101
       extra: middle
-      h: 103
+      h: 101
       height: 3
       inclusion: 3dpr
       pos: *id001
@@ -225,9 +225,9 @@ thing:
       shape: cylinder
       type: negative
       width: 3
-    - depth: 103
+    - depth: 101
       extra: middle
-      h: 103
+      h: 101
       height: 3
       inclusion: 'true'
       pos: *id001
@@ -345,9 +345,9 @@ thing:
       typetype: negative
   - - m: ''
       objects:
-      - depth: 3
+      - depth: 5
         extra: middle
-        h: 3
+        h: 5
         height: 3
         inclusion: laser
         r: 36.75
@@ -355,9 +355,9 @@ thing:
         type: negative
         wall_thickness: 1
         width: 3
-      - depth: 3
+      - depth: 5
         extra: middle
-        h: 3
+        h: 5
         height: 3
         inclusion: laser
         r: 37.75
@@ -365,9 +365,9 @@ thing:
         type: positive
         wall_thickness: 1
         width: 3
-      - depth: 3
+      - depth: 5
         extra: middle
-        h: 3
+        h: 5
         height: 3
         inclusion: 3dpr
         r: 36.75
@@ -375,9 +375,9 @@ thing:
         type: negative
         wall_thickness: 1
         width: 3
-      - depth: 3
+      - depth: 5
         extra: middle
-        h: 3
+        h: 5
         height: 3
         inclusion: 3dpr
         r: 37.75
@@ -385,9 +385,9 @@ thing:
         type: positive
         wall_thickness: 1
         width: 3
-      - depth: 3
+      - depth: 5
         extra: middle
-        h: 3
+        h: 5
         height: 3
         inclusion: 'true'
         r: 36.75
@@ -395,9 +395,9 @@ thing:
         type: negative
         wall_thickness: 1
         width: 3
-      - depth: 3
+      - depth: 5
         extra: middle
-        h: 3
+        h: 5
         height: 3
         inclusion: 'true'
         r: 37.75
@@ -408,14 +408,14 @@ thing:
       pos:
       - -37.5
       - 37.5
-      - -3
+      - -5
       rot:
       - 0
       - 0
       - 0
       type: rotation
       typetype: negative
-  - - m: ''
+  - - m: '#'
       objects:
       - depth: 1
         extra: middle
@@ -480,16 +480,16 @@ thing:
       pos:
       - -37.5
       - 37.5
-      - -3
+      - -5
       rot:
       - 0
       - 0
       - 0
       type: rotation
       typetype: negative
-  - - depth: 103
+  - - depth: 101
       extra: middle
-      h: 103
+      h: 101
       height: 3
       inclusion: laser
       pos: &id003
@@ -501,9 +501,9 @@ thing:
       shape: cylinder
       type: negative
       width: 3
-    - depth: 103
+    - depth: 101
       extra: middle
-      h: 103
+      h: 101
       height: 3
       inclusion: 3dpr
       pos: *id003
@@ -511,9 +511,9 @@ thing:
       shape: cylinder
       type: negative
       width: 3
-    - depth: 103
+    - depth: 101
       extra: middle
-      h: 103
+      h: 101
       height: 3
       inclusion: 'true'
       pos: *id003
@@ -631,9 +631,9 @@ thing:
       typetype: negative
   - - m: ''
       objects:
-      - depth: 3
+      - depth: 5
         extra: middle
-        h: 3
+        h: 5
         height: 3
         inclusion: laser
         r: 36.75
@@ -641,9 +641,9 @@ thing:
         type: negative
         wall_thickness: 1
         width: 3
-      - depth: 3
+      - depth: 5
         extra: middle
-        h: 3
+        h: 5
         height: 3
         inclusion: laser
         r: 37.75
@@ -651,9 +651,9 @@ thing:
         type: positive
         wall_thickness: 1
         width: 3
-      - depth: 3
+      - depth: 5
         extra: middle
-        h: 3
+        h: 5
         height: 3
         inclusion: 3dpr
         r: 36.75
@@ -661,9 +661,9 @@ thing:
         type: negative
         wall_thickness: 1
         width: 3
-      - depth: 3
+      - depth: 5
         extra: middle
-        h: 3
+        h: 5
         height: 3
         inclusion: 3dpr
         r: 37.75
@@ -671,9 +671,9 @@ thing:
         type: positive
         wall_thickness: 1
         width: 3
-      - depth: 3
+      - depth: 5
         extra: middle
-        h: 3
+        h: 5
         height: 3
         inclusion: 'true'
         r: 36.75
@@ -681,9 +681,9 @@ thing:
         type: negative
         wall_thickness: 1
         width: 3
-      - depth: 3
+      - depth: 5
         extra: middle
-        h: 3
+        h: 5
         height: 3
         inclusion: 'true'
         r: 37.75
@@ -694,14 +694,14 @@ thing:
       pos:
       - 37.5
       - -37.5
-      - -3
+      - -5
       rot:
       - 0
       - 0
       - 0
       type: rotation
       typetype: negative
-  - - m: ''
+  - - m: '#'
       objects:
       - depth: 1
         extra: middle
@@ -766,16 +766,16 @@ thing:
       pos:
       - 37.5
       - -37.5
-      - -3
+      - -5
       rot:
       - 0
       - 0
       - 0
       type: rotation
       typetype: negative
-  - - depth: 103
+  - - depth: 101
       extra: middle
-      h: 103
+      h: 101
       height: 3
       inclusion: laser
       pos: &id005
@@ -787,9 +787,9 @@ thing:
       shape: cylinder
       type: negative
       width: 3
-    - depth: 103
+    - depth: 101
       extra: middle
-      h: 103
+      h: 101
       height: 3
       inclusion: 3dpr
       pos: *id005
@@ -797,9 +797,9 @@ thing:
       shape: cylinder
       type: negative
       width: 3
-    - depth: 103
+    - depth: 101
       extra: middle
-      h: 103
+      h: 101
       height: 3
       inclusion: 'true'
       pos: *id005
@@ -917,9 +917,9 @@ thing:
       typetype: negative
   - - m: ''
       objects:
-      - depth: 3
+      - depth: 5
         extra: middle
-        h: 3
+        h: 5
         height: 3
         inclusion: laser
         r: 36.75
@@ -927,9 +927,9 @@ thing:
         type: negative
         wall_thickness: 1
         width: 3
-      - depth: 3
+      - depth: 5
         extra: middle
-        h: 3
+        h: 5
         height: 3
         inclusion: laser
         r: 37.75
@@ -937,9 +937,9 @@ thing:
         type: positive
         wall_thickness: 1
         width: 3
-      - depth: 3
+      - depth: 5
         extra: middle
-        h: 3
+        h: 5
         height: 3
         inclusion: 3dpr
         r: 36.75
@@ -947,9 +947,9 @@ thing:
         type: negative
         wall_thickness: 1
         width: 3
-      - depth: 3
+      - depth: 5
         extra: middle
-        h: 3
+        h: 5
         height: 3
         inclusion: 3dpr
         r: 37.75
@@ -957,9 +957,9 @@ thing:
         type: positive
         wall_thickness: 1
         width: 3
-      - depth: 3
+      - depth: 5
         extra: middle
-        h: 3
+        h: 5
         height: 3
         inclusion: 'true'
         r: 36.75
@@ -967,9 +967,9 @@ thing:
         type: negative
         wall_thickness: 1
         width: 3
-      - depth: 3
+      - depth: 5
         extra: middle
-        h: 3
+        h: 5
         height: 3
         inclusion: 'true'
         r: 37.75
@@ -980,14 +980,14 @@ thing:
       pos:
       - -37.5
       - -37.5
-      - -3
+      - -5
       rot:
       - 0
       - 0
       - 0
       type: rotation
       typetype: negative
-  - - m: ''
+  - - m: '#'
       objects:
       - depth: 1
         extra: middle
@@ -1052,16 +1052,16 @@ thing:
       pos:
       - -37.5
       - -37.5
-      - -3
+      - -5
       rot:
       - 0
       - 0
       - 0
       type: rotation
       typetype: negative
-  - - depth: 103
+  - - depth: 101
       extra: middle
-      h: 103
+      h: 101
       height: 3
       inclusion: laser
       pos: &id007
@@ -1073,9 +1073,9 @@ thing:
       shape: cylinder
       type: negative
       width: 3
-    - depth: 103
+    - depth: 101
       extra: middle
-      h: 103
+      h: 101
       height: 3
       inclusion: 3dpr
       pos: *id007
@@ -1083,9 +1083,9 @@ thing:
       shape: cylinder
       type: negative
       width: 3
-    - depth: 103
+    - depth: 101
       extra: middle
-      h: 103
+      h: 101
       height: 3
       inclusion: 'true'
       pos: *id007
@@ -1337,7 +1337,7 @@ thing:
         shape: cylinder
         type: negative
   components_objects:
-  - depth: 9
+  - depth: 12
     extra: middle
     filter: ''
     height: 3
@@ -1358,14 +1358,14 @@ thing:
     pos:
     - 0
     - 0
-    - -12
+    - -17
     save_type: all
     shape: oobb_plate
     thickness: 12
     typ: all
     type: positive
     width: 3
-  - depth: 3
+  - depth: 5
     extra: middle
     filter: ''
     height: 3
@@ -1386,7 +1386,7 @@ thing:
     pos:
     - 37.5
     - 37.5
-    - -3
+    - -5
     radius: 37.75
     save_type: all
     shape: oobb_tube_new
@@ -1399,6 +1399,7 @@ thing:
     extra: middle
     filter: ''
     height: 3
+    m: '#'
     modes:
     - 3dpr
     navigation: true
@@ -1416,7 +1417,7 @@ thing:
     pos:
     - 37.5
     - 37.5
-    - -3
+    - -5
     radius: 36.75
     save_type: all
     shape: oobb_tube_new
@@ -1425,7 +1426,7 @@ thing:
     type: negative
     wall_thickness: 3
     width: 3
-  - depth: 103
+  - depth: 101
     extra: middle
     filter: ''
     height: 3
@@ -1446,7 +1447,7 @@ thing:
     pos:
     - 37.5
     - 37.5
-    - -54.5
+    - -55.5
     radius: 36.75
     save_type: all
     shape: oobb_cylinder
@@ -1513,7 +1514,7 @@ thing:
     type: negative
     wall_thickness: 1
     width: 3
-  - depth: 3
+  - depth: 5
     extra: middle
     filter: ''
     height: 3
@@ -1534,7 +1535,7 @@ thing:
     pos:
     - -37.5
     - 37.5
-    - -3
+    - -5
     radius: 37.75
     save_type: all
     shape: oobb_tube_new
@@ -1547,6 +1548,7 @@ thing:
     extra: middle
     filter: ''
     height: 3
+    m: '#'
     modes:
     - 3dpr
     navigation: true
@@ -1564,7 +1566,7 @@ thing:
     pos:
     - -37.5
     - 37.5
-    - -3
+    - -5
     radius: 36.75
     save_type: all
     shape: oobb_tube_new
@@ -1573,7 +1575,7 @@ thing:
     type: negative
     wall_thickness: 3
     width: 3
-  - depth: 103
+  - depth: 101
     extra: middle
     filter: ''
     height: 3
@@ -1594,7 +1596,7 @@ thing:
     pos:
     - -37.5
     - 37.5
-    - -54.5
+    - -55.5
     radius: 36.75
     save_type: all
     shape: oobb_cylinder
@@ -1661,7 +1663,7 @@ thing:
     type: negative
     wall_thickness: 1
     width: 3
-  - depth: 3
+  - depth: 5
     extra: middle
     filter: ''
     height: 3
@@ -1682,7 +1684,7 @@ thing:
     pos:
     - 37.5
     - -37.5
-    - -3
+    - -5
     radius: 37.75
     save_type: all
     shape: oobb_tube_new
@@ -1695,6 +1697,7 @@ thing:
     extra: middle
     filter: ''
     height: 3
+    m: '#'
     modes:
     - 3dpr
     navigation: true
@@ -1712,7 +1715,7 @@ thing:
     pos:
     - 37.5
     - -37.5
-    - -3
+    - -5
     radius: 36.75
     save_type: all
     shape: oobb_tube_new
@@ -1721,7 +1724,7 @@ thing:
     type: negative
     wall_thickness: 3
     width: 3
-  - depth: 103
+  - depth: 101
     extra: middle
     filter: ''
     height: 3
@@ -1742,7 +1745,7 @@ thing:
     pos:
     - 37.5
     - -37.5
-    - -54.5
+    - -55.5
     radius: 36.75
     save_type: all
     shape: oobb_cylinder
@@ -1809,7 +1812,7 @@ thing:
     type: negative
     wall_thickness: 1
     width: 3
-  - depth: 3
+  - depth: 5
     extra: middle
     filter: ''
     height: 3
@@ -1830,7 +1833,7 @@ thing:
     pos:
     - -37.5
     - -37.5
-    - -3
+    - -5
     radius: 37.75
     save_type: all
     shape: oobb_tube_new
@@ -1843,6 +1846,7 @@ thing:
     extra: middle
     filter: ''
     height: 3
+    m: '#'
     modes:
     - 3dpr
     navigation: true
@@ -1860,7 +1864,7 @@ thing:
     pos:
     - -37.5
     - -37.5
-    - -3
+    - -5
     radius: 36.75
     save_type: all
     shape: oobb_tube_new
@@ -1869,7 +1873,7 @@ thing:
     type: negative
     wall_thickness: 3
     width: 3
-  - depth: 103
+  - depth: 101
     extra: middle
     filter: ''
     height: 3
@@ -1890,7 +1894,7 @@ thing:
     pos:
     - -37.5
     - -37.5
-    - -54.5
+    - -55.5
     radius: 36.75
     save_type: all
     shape: oobb_cylinder
@@ -1999,25 +2003,25 @@ thing:
     type: p
     width: 3
   components_string:
-  - oobb_plate_shape_positive_type_9_depth_0_0_-12_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra
-  - oobb_tube_new_shape_negative_type_3_depth_37.5_37.5_-3_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra_37.75_radius_1_wall_thickness
-  - oobb_tube_new_shape_negative_type_1_depth_37.5_37.5_-3_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra_36.75_radius_3_wall_thickness
-  - oobb_cylinder_shape_negative_type_103_depth_37.5_37.5_-54.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra_36.75_radius
+  - oobb_plate_shape_positive_type_12_depth_0_0_-17_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra
+  - oobb_tube_new_shape_negative_type_5_depth_37.5_37.5_-5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra_37.75_radius_1_wall_thickness
+  - oobb_tube_new_shape_negative_type_1_depth_37.5_37.5_-5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra_36.75_radius_3_wall_thickness
+  - oobb_cylinder_shape_negative_type_101_depth_37.5_37.5_-55.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra_36.75_radius
   - oobb_cylinder_shape_negative_type_1_depth_37.5_37.5_-106_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra_36.75_radius
   - oobb_tube_new_shape_negative_type_3_depth_37.5_37.5_-109_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra_36.75_radius_1_wall_thickness
-  - oobb_tube_new_shape_negative_type_3_depth_-37.5_37.5_-3_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra_37.75_radius_1_wall_thickness
-  - oobb_tube_new_shape_negative_type_1_depth_-37.5_37.5_-3_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra_36.75_radius_3_wall_thickness
-  - oobb_cylinder_shape_negative_type_103_depth_-37.5_37.5_-54.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra_36.75_radius
+  - oobb_tube_new_shape_negative_type_5_depth_-37.5_37.5_-5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra_37.75_radius_1_wall_thickness
+  - oobb_tube_new_shape_negative_type_1_depth_-37.5_37.5_-5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra_36.75_radius_3_wall_thickness
+  - oobb_cylinder_shape_negative_type_101_depth_-37.5_37.5_-55.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra_36.75_radius
   - oobb_cylinder_shape_negative_type_1_depth_-37.5_37.5_-106_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra_36.75_radius
   - oobb_tube_new_shape_negative_type_3_depth_-37.5_37.5_-109_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra_36.75_radius_1_wall_thickness
-  - oobb_tube_new_shape_negative_type_3_depth_37.5_-37.5_-3_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra_37.75_radius_1_wall_thickness
-  - oobb_tube_new_shape_negative_type_1_depth_37.5_-37.5_-3_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra_36.75_radius_3_wall_thickness
-  - oobb_cylinder_shape_negative_type_103_depth_37.5_-37.5_-54.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra_36.75_radius
+  - oobb_tube_new_shape_negative_type_5_depth_37.5_-37.5_-5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra_37.75_radius_1_wall_thickness
+  - oobb_tube_new_shape_negative_type_1_depth_37.5_-37.5_-5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra_36.75_radius_3_wall_thickness
+  - oobb_cylinder_shape_negative_type_101_depth_37.5_-37.5_-55.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra_36.75_radius
   - oobb_cylinder_shape_negative_type_1_depth_37.5_-37.5_-106_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra_36.75_radius
   - oobb_tube_new_shape_negative_type_3_depth_37.5_-37.5_-109_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra_36.75_radius_1_wall_thickness
-  - oobb_tube_new_shape_negative_type_3_depth_-37.5_-37.5_-3_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra_37.75_radius_1_wall_thickness
-  - oobb_tube_new_shape_negative_type_1_depth_-37.5_-37.5_-3_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra_36.75_radius_3_wall_thickness
-  - oobb_cylinder_shape_negative_type_103_depth_-37.5_-37.5_-54.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra_36.75_radius
+  - oobb_tube_new_shape_negative_type_5_depth_-37.5_-37.5_-5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra_37.75_radius_1_wall_thickness
+  - oobb_tube_new_shape_negative_type_1_depth_-37.5_-37.5_-5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra_36.75_radius_3_wall_thickness
+  - oobb_cylinder_shape_negative_type_101_depth_-37.5_-37.5_-55.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra_36.75_radius
   - oobb_cylinder_shape_negative_type_1_depth_-37.5_-37.5_-106_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra_36.75_radius
   - oobb_tube_new_shape_negative_type_3_depth_-37.5_-37.5_-109_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra_36.75_radius_1_wall_thickness
   - oobb_holes_shape_p_type_250_depth_0_0_-125.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_12_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_bolt_packaging_tin_can_clamp_tog_oomp_color_middle_extra_true_both_holes_single_holes_0.9_0.9_3.1_0.9_0.9_3.1_3.1_3.1_2_2_locations
